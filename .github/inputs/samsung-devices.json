@@ -273,6 +273,6 @@
     "defconfig": "a52sxq_defconfig",
     "wifi_fix": false,
     "extra_artifacts": ["Image.gz", "dtb.img"],
-    "disabled": false,
+    "disabled": false
   }
 }

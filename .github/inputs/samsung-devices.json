@@ -264,7 +264,7 @@
     "android_version": "android12",
     "kernel_version": "5.4",
     "source_repo": "RisenID/kernel_samsung_ascendia_sm7325",
-    "source_branch": "master",
+    "source_branch": "aosp-ksu",
     "common_path": "arch/arm64/configs",
     "build_command": "make a52sxq_defconfig && make -j$(nproc)",
     "lto_default": "thin",

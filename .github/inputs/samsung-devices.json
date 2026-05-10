@@ -255,4 +255,24 @@
     "wifi_fix": true,
     "extra_artifacts": []
   }
+    "samsung_a52s_qgki": {
+    "brand": "samsung",
+    "name": "Galaxy A52s 5G",
+    "soc": "sm7325",
+    "codename": "a52sxq",
+    "soc_family": "qcom",
+    "android_version": "android12",
+    "kernel_version": "5.4",
+    "source_repo": "RisenID/kernel_samsung_ascendia_sm7325",
+    "source_branch": "master",
+    "common_path": "arch/arm64/configs",
+    "build_command": "make a52sxq_defconfig && make -j$(nproc)",
+    "lto_default": "thin",
+    "image_path": "arch/arm64/boot/Image.gz-dtb",
+    "fix_patches_dir": "SM-A528B",
+    "defconfig": "a52sxq_defconfig",
+    "wifi_fix": false,
+    "extra_artifacts": ["Image.gz", "dtb.img"],
+    "disabled": false,
+  }
 }

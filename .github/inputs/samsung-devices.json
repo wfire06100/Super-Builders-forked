@@ -254,7 +254,7 @@
     "fix_patches_dir": "SM-A566B",
     "wifi_fix": true,
     "extra_artifacts": []
-  }
+  },
     "samsung_a52s_qgki": {
     "brand": "samsung",
     "name": "Galaxy A52s 5G",
